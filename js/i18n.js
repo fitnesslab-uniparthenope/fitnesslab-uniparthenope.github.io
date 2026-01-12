@@ -12,12 +12,12 @@ const translations = {
         
         // Hero section
         'hero.subtitle': 'Research Group on Cybersecurity, Privacy-Preserving Computing, and Blockchain Technologies<br>University of Naples Parthenope',
-        'hero.interdisciplinary': 'An interdisciplinary laboratory between the <a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Engineering (DING)</a> and the <a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Science and Technology</a>',
+        'hero.interdisciplinary': 'An interdisciplinary laboratory between the <a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Engineering (DING)</a> and the <a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Economics, Law, Cybersecurity, and Sports Science</a>',
         'hero.button': 'Discover Our Research',
         
         // Research Topics
         'research.topics.title': 'Research Topics',
-        'research.topics.description': 'FITNESSLAB is an interdisciplinary laboratory between the <strong><a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Engineering (DING)</a></strong> and the <strong><a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Science and Technology</a></strong> at the University of Naples Parthenope. We conduct cutting-edge research in cybersecurity, privacy-preserving computing, and blockchain technologies, with applications spanning computing continuum, eHealth, and industrial control systems.',
+        'research.topics.description': 'FITNESSLAB is an interdisciplinary laboratory between the <strong><a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Engineering (DING)</a></strong> and the <strong><a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Economics, Law, Cybersecurity, and Sports Science</a></strong> at the University of Naples Parthenope. We conduct cutting-edge research in cybersecurity, privacy-preserving computing, and blockchain technologies, with applications spanning computing continuum, eHealth, and industrial control systems.',
         'research.areas.title': 'Our Research Areas',
         'research.area.privacy.title': 'Privacy-Preserving Computing',
         'research.area.privacy.desc': 'Research on Trusted Execution Environments (TEE), Homomorphic Encryption (HE), and Federated Learning for secure and private data processing.',
@@ -76,7 +76,8 @@ const translations = {
         'contact.title': 'Contact Us',
         'contact.description': 'Interested in our research or collaboration opportunities? Get in touch with us!',
         'contact.inquiries': 'For inquiries, please contact:',
-        'contact.visit': 'Visit our institution:'
+        'contact.visit': 'Visit our institution:',
+        'contact.department': 'Department of Economics, Law, Cybersecurity, and Sports Science'
     },
     it: {
         // Navigation
@@ -90,12 +91,12 @@ const translations = {
         
         // Hero section
         'hero.subtitle': 'Gruppo di Ricerca su Cybersecurity, Computazione Privacy-Preserving e Tecnologie Blockchain<br>Università degli Studi di Napoli Parthenope',
-        'hero.interdisciplinary': 'Un laboratorio interdisciplinare tra il <a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Dipartimento di Ingegneria (DING)</a> e il <a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Dipartimento di Scienze e Tecnologie</a>',
+        'hero.interdisciplinary': 'Un laboratorio interdisciplinare tra il <a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Dipartimento di Ingegneria (DING)</a> e il <a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Dipartimento di Scienze Economiche, Giuridiche, Informatiche e Motorie (DiSEGIM)</a>',
         'hero.button': 'Scopri la Nostra Ricerca',
         
         // Research Topics
         'research.topics.title': 'Temi di Ricerca',
-        'research.topics.description': 'FITNESSLAB è un laboratorio interdisciplinare tra il <strong><a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Dipartimento di Ingegneria (DING)</a></strong> e il <strong><a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Dipartimento di Scienze e Tecnologie</a></strong> dell\'Università degli Studi di Napoli Parthenope. Svolgiamo ricerca all\'avanguardia in cybersecurity, computazione privacy-preserving e tecnologie blockchain, con applicazioni che spaziano dal continuum computazionale, all\'eHealth, ai sistemi di controllo industriale.',
+        'research.topics.description': 'FITNESSLAB è un laboratorio interdisciplinare tra il <strong><a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Dipartimento di Ingegneria (DING)</a></strong> e il <strong><a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Dipartimento di Scienze Economiche, Giuridiche, Informatiche e Motorie (DiSEGIM)</a></strong> dell\'Università degli Studi di Napoli Parthenope. Svolgiamo ricerca all\'avanguardia in cybersecurity, computazione privacy-preserving e tecnologie blockchain, con applicazioni che spaziano dal continuum computazionale, all\'eHealth, ai sistemi di controllo industriale.',
         'research.areas.title': 'Le Nostre Aree di Ricerca',
         'research.area.privacy.title': 'Computazione Privacy-Preserving',
         'research.area.privacy.desc': 'Ricerca su Trusted Execution Environments (TEE), Homomorphic Encryption (HE) e Federated Learning per l\'elaborazione sicura e privata dei dati.',
@@ -154,7 +155,8 @@ const translations = {
         'contact.title': 'Contattaci',
         'contact.description': 'Interessato alla nostra ricerca o alle opportunità di collaborazione? Mettiti in contatto con noi!',
         'contact.inquiries': 'Per informazioni, si prega di contattare:',
-        'contact.visit': 'Visita la nostra istituzione:'
+        'contact.visit': 'Visita la nostra istituzione:',
+        'contact.department': 'Dipartimento di Scienze Economiche, Giuridiche, Informatiche e Motorie (DiSEGIM)'
     }
 };
 
