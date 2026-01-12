@@ -28,13 +28,22 @@
                 </a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#about">Research Topics</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#spin-off">Spin-off</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0 align-items-center">
+                        <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav.research-topics">Research Topics</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team" data-i18n="nav.team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#publications" data-i18n="nav.publications">Publications</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects" data-i18n="nav.projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#spin-off" data-i18n="nav.spin-off">Spin-off</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact" data-i18n="nav.contact">Contact</a></li>
+                        <li class="nav-item dropdown ms-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi-globe me-1"></i><span data-i18n="nav.language">Language</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                                <li><a class="dropdown-item" href="#" data-lang="en"><i class="bi-check-lg me-2" id="check-en"></i>English</a></li>
+                                <li><a class="dropdown-item" href="#" data-lang="it"><i class="bi-check-lg me-2" id="check-it" style="display: none;"></i>Italiano</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -49,9 +58,9 @@
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5">Research Group on Cybersecurity, Privacy-Preserving Computing, and Blockchain Technologies<br>University of Naples Parthenope</p>
-                        <p class="text-white-75 mb-4 small">An interdisciplinary laboratory between the <a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Engineering (DING)</a> and the <a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Science and Technology</a></p>
-                        <a class="btn btn-primary btn-xl" href="#about">Discover Our Research</a>
+                        <p class="text-white-75 mb-5" data-i18n="hero.subtitle">Research Group on Cybersecurity, Privacy-Preserving Computing, and Blockchain Technologies<br>University of Naples Parthenope</p>
+                        <p class="text-white-75 mb-4 small" data-i18n="hero.interdisciplinary">An interdisciplinary laboratory between the <a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Engineering (DING)</a> and the <a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Science and Technology</a></p>
+                        <a class="btn btn-primary btn-xl" href="#about" data-i18n="hero.button">Discover Our Research</a>
                     </div>
                 </div>
             </div>
@@ -61,9 +70,9 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">Research Topics</h2>
+                        <h2 class="text-white mt-0" data-i18n="research.topics.title">Research Topics</h2>
                         <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">FITNESSLAB is an interdisciplinary laboratory between the <strong><a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Engineering (DING)</a></strong> and the <strong><a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Science and Technology</a></strong> at the University of Naples Parthenope. We conduct cutting-edge research in cybersecurity, privacy-preserving computing, and blockchain technologies, with applications spanning computing continuum, eHealth, and industrial control systems.</p>
+                        <p class="text-white-75 mb-4" data-i18n="research.topics.description">FITNESSLAB is an interdisciplinary laboratory between the <strong><a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Engineering (DING)</a></strong> and the <strong><a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Science and Technology</a></strong> at the University of Naples Parthenope. We conduct cutting-edge research in cybersecurity, privacy-preserving computing, and blockchain technologies, with applications spanning computing continuum, eHealth, and industrial control systems.</p>
                     </div>
                 </div>
             </div>
@@ -71,49 +80,49 @@
         <!-- Research Areas-->
         <section class="page-section" id="research-areas">
             <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">Our Research Areas</h2>
+                <h2 class="text-center mt-0" data-i18n="research.areas.title">Our Research Areas</h2>
                 <hr class="divider" />
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-4 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi-shield-lock fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Privacy-Preserving Computing</h3>
-                            <p class="text-muted mb-0">Research on Trusted Execution Environments (TEE), Homomorphic Encryption (HE), and Federated Learning for secure and private data processing.</p>
+                            <h3 class="h4 mb-2" data-i18n="research.area.privacy.title">Privacy-Preserving Computing</h3>
+                            <p class="text-muted mb-0" data-i18n="research.area.privacy.desc">Research on Trusted Execution Environments (TEE), Homomorphic Encryption (HE), and Federated Learning for secure and private data processing.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi-cpu fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">AI-Based Security Monitoring</h3>
-                            <p class="text-muted mb-0">Advanced threat intelligence and security monitoring systems leveraging artificial intelligence and machine learning for information processing.</p>
+                            <h3 class="h4 mb-2" data-i18n="research.area.ai.title">AI-Based Security Monitoring</h3>
+                            <p class="text-muted mb-0" data-i18n="research.area.ai.desc">Advanced threat intelligence and security monitoring systems leveraging artificial intelligence and machine learning for information processing.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi-link-45deg fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Blockchain & Web3</h3>
-                            <p class="text-muted mb-0">Research on blockchain technologies, smart contracts, decentralized systems, and Web3 applications.</p>
+                            <h3 class="h4 mb-2" data-i18n="research.area.blockchain.title">Blockchain & Web3</h3>
+                            <p class="text-muted mb-0" data-i18n="research.area.blockchain.desc">Research on blockchain technologies, smart contracts, decentralized systems, and Web3 applications.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi-cloud fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Computing Continuum</h3>
-                            <p class="text-muted mb-0">Security and privacy solutions for edge-to-cloud computing continuum architectures.</p>
+                            <h3 class="h4 mb-2" data-i18n="research.area.continuum.title">Computing Continuum</h3>
+                            <p class="text-muted mb-0" data-i18n="research.area.continuum.desc">Security and privacy solutions for edge-to-cloud computing continuum architectures.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi-heart-pulse fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">eHealth</h3>
-                            <p class="text-muted mb-0">Secure and privacy-preserving solutions for digital health applications and medical data processing.</p>
+                            <h3 class="h4 mb-2" data-i18n="research.area.ehealth.title">eHealth</h3>
+                            <p class="text-muted mb-0" data-i18n="research.area.ehealth.desc">Secure and privacy-preserving solutions for digital health applications and medical data processing.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi-gear fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Industrial Control Systems</h3>
-                            <p class="text-muted mb-0">Cybersecurity research for critical infrastructure and industrial control systems (ICS/SCADA).</p>
+                            <h3 class="h4 mb-2" data-i18n="research.area.ics.title">Industrial Control Systems</h3>
+                            <p class="text-muted mb-0" data-i18n="research.area.ics.desc">Cybersecurity research for critical infrastructure and industrial control systems (ICS/SCADA).</p>
                         </div>
                     </div>
                 </div>
@@ -122,17 +131,17 @@
         <!-- Team-->
         <section class="page-section bg-light" id="team">
             <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">Our Team</h2>
+                <h2 class="text-center mt-0" data-i18n="team.title">Our Team</h2>
                 <hr class="divider" />
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-12 mb-4">
-                        <h3 class="h5 mb-3">Faculty Staff</h3>
+                        <h3 class="h5 mb-3" data-i18n="team.faculty">Faculty Staff</h3>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="card h-100">
                             <div class="card-body">
                                 <h4 class="card-title">Luigi Romano</h4>
-                                <p class="card-text text-muted">Full Professor</p>
+                                <p class="card-text text-muted" data-i18n="team.professor">Full Professor</p>
                             </div>
                         </div>
                     </div>
@@ -140,7 +149,10 @@
                         <div class="card h-100">
                             <div class="card-body">
                                 <h4 class="card-title">Luigi Coppolino</h4>
-                                <p class="card-text text-muted">Associate Professor</p>
+                                <p class="card-text text-muted" data-i18n="team.associate">Associate Professor</p>
+                                <a href="https://scholar.google.com/citations?hl=it&user=vfcuP2oAAAAJ" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary mt-2">
+                                    <i class="bi-google me-1"></i>Google Scholar
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -148,7 +160,10 @@
                         <div class="card h-100">
                             <div class="card-body">
                                 <h4 class="card-title">Salvatore D'Antonio</h4>
-                                <p class="card-text text-muted">Associate Professor</p>
+                                <p class="card-text text-muted" data-i18n="team.associate">Associate Professor</p>
+                                <a href="https://scholar.google.com/citations?hl=it&user=FPAvrAsAAAAJ" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary mt-2">
+                                    <i class="bi-google me-1"></i>Google Scholar
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -156,7 +171,10 @@
                         <div class="card h-100">
                             <div class="card-body">
                                 <h4 class="card-title">Roberto Nardone</h4>
-                                <p class="card-text text-muted">Associate Professor</p>
+                                <p class="card-text text-muted" data-i18n="team.associate">Associate Professor</p>
+                                <a href="https://scholar.google.com/citations?hl=it&user=4K5YBjQAAAAJ" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary mt-2">
+                                    <i class="bi-google me-1"></i>Google Scholar
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -164,7 +182,10 @@
                         <div class="card h-100">
                             <div class="card-body">
                                 <h4 class="card-title">Giovanni Mazzeo</h4>
-                                <p class="card-text text-muted">Associate Professor</p>
+                                <p class="card-text text-muted" data-i18n="team.associate">Associate Professor</p>
+                                <a href="https://scholar.google.com/citations?user=V6eVjpEAAAAJ&hl=it" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary mt-2">
+                                    <i class="bi-google me-1"></i>Google Scholar
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -172,20 +193,23 @@
                         <div class="card h-100">
                             <div class="card-body">
                                 <h4 class="card-title">Daniele Granata</h4>
-                                <p class="card-text text-muted">Non-Tenured Assistant Professor</p>
+                                <p class="card-text text-muted" data-i18n="team.assistant">Non-Tenured Assistant Professor</p>
+                                <a href="https://scholar.google.com/citations?user=Aqw3Yc0AAAAJ&hl=it&oi=ao" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary mt-2">
+                                    <i class="bi-google me-1"></i>Google Scholar
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row gx-4 gx-lg-5 mt-4">
                     <div class="col-lg-12 mb-4">
-                        <h3 class="h5 mb-3">PhD Students</h3>
+                        <h3 class="h5 mb-3" data-i18n="team.phd">PhD Students</h3>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-3">
                         <div class="card h-100">
                             <div class="card-body">
                                 <h5 class="card-title">Jonah Giglio</h5>
-                                <p class="card-text text-muted small">PhD Student</p>
+                                <p class="card-text text-muted small" data-i18n="team.phd-student">PhD Student</p>
                             </div>
                         </div>
                     </div>
@@ -193,7 +217,7 @@
                         <div class="card h-100">
                             <div class="card-body">
                                 <h5 class="card-title">Giovanni Maria Cristiano</h5>
-                                <p class="card-text text-muted small">PhD Student</p>
+                                <p class="card-text text-muted small" data-i18n="team.phd-student">PhD Student</p>
                             </div>
                         </div>
                     </div>
@@ -201,7 +225,7 @@
                         <div class="card h-100">
                             <div class="card-body">
                                 <h5 class="card-title">Antonio Iannaccone</h5>
-                                <p class="card-text text-muted small">PhD Student</p>
+                                <p class="card-text text-muted small" data-i18n="team.phd-student">PhD Student</p>
                             </div>
                         </div>
                     </div>
@@ -209,7 +233,7 @@
                         <div class="card h-100">
                             <div class="card-body">
                                 <h5 class="card-title">Susy Imperatrice</h5>
-                                <p class="card-text text-muted small">PhD Student</p>
+                                <p class="card-text text-muted small" data-i18n="team.phd-student">PhD Student</p>
                             </div>
                         </div>
                     </div>
@@ -217,7 +241,7 @@
                         <div class="card h-100">
                             <div class="card-body">
                                 <h5 class="card-title">Fernando Pannullo</h5>
-                                <p class="card-text text-muted small">PhD Student</p>
+                                <p class="card-text text-muted small" data-i18n="team.phd-student">PhD Student</p>
                             </div>
                         </div>
                     </div>
@@ -225,7 +249,7 @@
                         <div class="card h-100">
                             <div class="card-body">
                                 <h5 class="card-title">Paolo Palmiero</h5>
-                                <p class="card-text text-muted small">PhD Student</p>
+                                <p class="card-text text-muted small" data-i18n="team.phd-student">PhD Student</p>
                             </div>
                         </div>
                     </div>
@@ -235,20 +259,19 @@
         <!-- Publications-->
         <section class="page-section" id="publications">
             <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">Publications</h2>
+                <h2 class="text-center mt-0" data-i18n="publications.title">Publications</h2>
                 <hr class="divider" />
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                        <p class="text-muted mb-4">Our research group publishes in top-tier venues across various publication types:</p>
+                        <p class="text-muted mb-4" data-i18n="publications.description">Our research group publishes in top-tier venues across various publication types:</p>
                         <ul class="list-unstyled">
-                            <li class="mb-3"><i class="bi-journal-text text-primary me-2"></i><strong>Journal Articles</strong> - Peer-reviewed articles in international journals</li>
-                            <li class="mb-3"><i class="bi-file-earmark-text text-primary me-2"></i><strong>Conference Papers</strong> - Research papers presented at international conferences</li>
-                            <li class="mb-3"><i class="bi-book text-primary me-2"></i><strong>Book Chapters</strong> - Contributions to edited volumes and books</li>
-                            <li class="mb-3"><i class="bi-book-half text-primary me-2"></i><strong>Books</strong> - Authored and edited books</li>
-                            <li class="mb-3"><i class="bi-file-earmark-richtext text-primary me-2"></i><strong>Theses</strong> - Doctoral and master's theses</li>
-                            <li class="mb-3"><i class="bi-shield-check text-primary me-2"></i><strong>Patents</strong> - Intellectual property and patent applications</li>
+                            <li class="mb-3"><i class="bi-journal-text text-primary me-2"></i><span data-i18n="publications.journal"><strong>Journal Articles</strong> - Peer-reviewed articles in international journals, including IEEE Transactions on Industrial Informatics, IEEE Transactions on Emerging Topics in Computing, and IEEE Transactions on Dependable and Secure Computing</span></li>
+                            <li class="mb-3"><i class="bi-file-earmark-text text-primary me-2"></i><span data-i18n="publications.conference"><strong>Conference Papers</strong> - Research papers presented at international conferences, including IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) and European Dependable Computing Conference (EDCC)</span></li>
+                            <li class="mb-3"><i class="bi-book text-primary me-2"></i><span data-i18n="publications.book-chapter"><strong>Book Chapters</strong> - Contributions to edited volumes and books</span></li>
+                            <li class="mb-3"><i class="bi-book-half text-primary me-2"></i><span data-i18n="publications.books"><strong>Books</strong> - Authored and edited books</span></li>
+                            <li class="mb-3"><i class="bi-file-earmark-richtext text-primary me-2"></i><span data-i18n="publications.theses"><strong>Theses</strong> - Doctoral and master's theses</span></li>
                         </ul>
-                        <p class="text-muted mt-4">For a complete list of publications, please visit our team members' Google Scholar profiles.</p>
+                        <p class="text-muted mt-4" data-i18n="publications.note">For a complete list of publications, please visit our team members' Google Scholar profiles.</p>
                     </div>
                 </div>
             </div>
@@ -256,14 +279,22 @@
         <!-- Research Projects-->
         <section class="page-section bg-light" id="projects">
             <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">Research Projects</h2>
+                <h2 class="text-center mt-0" data-i18n="projects.title">Research Projects</h2>
                 <hr class="divider" />
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-10">
-                        <p class="text-muted mb-4">FITNESSLAB has participated in numerous Italian and European research projects. Our research activities span across multiple funding programs:</p>
+                        <p class="text-muted mb-4" data-i18n="projects.description">FITNESSLAB has participated in numerous Italian and European research projects. Our research activities span across multiple funding programs:</p>
                         
-                        <h3 class="h5 mt-5 mb-3"><i class="bi-flag text-primary me-2"></i>European Commission Funded Projects</h3>
-                        <p class="text-muted mb-4">We have been involved in projects funded under FP7, Horizon 2020, and Horizon Europe programs, focusing on cybersecurity, privacy-preserving technologies, and blockchain applications.</p>
+                        <h3 class="h5 mt-5 mb-3"><i class="bi-flag text-primary me-2"></i><span data-i18n="projects.eu.title">European Commission Funded Projects</span></h3>
+                        <p class="text-muted mb-4" data-i18n="projects.eu.description">FITNESSLAB has participated in <strong>16 European Commission-funded projects</strong> under FP7, Horizon 2020, and Horizon Europe programs, focusing on cybersecurity, privacy-preserving technologies, and blockchain applications. Our most recent EC-funded projects include:</p>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2"><i class="bi-check-circle text-primary me-2"></i><strong>ENCRYPT</strong> (2022-2025)</li>
+                            <li class="mb-2"><i class="bi-check-circle text-primary me-2"></i><strong>CERTIFY</strong> (2022-2025)</li>
+                            <li class="mb-2"><i class="bi-check-circle text-primary me-2"></i><strong>CyberSEAS</strong> (2021–2024)</li>
+                            <li class="mb-2"><i class="bi-check-circle text-primary me-2"></i><strong>INCISIVE</strong> (2020–2024)</li>
+                            <li class="mb-2"><i class="bi-check-circle text-primary me-2"></i><strong>7Shield</strong> (2020–2023)</li>
+                        </ul>
+                        <p class="text-muted" data-i18n="projects.eu.more">In addition to these recent projects, our team has a proven track record spanning over 15 years of EC-funded project participations, including InfraStress, KONFIDO, COMPACT, SecureCloud, SERECA, SAWSOC, MASSIF, VIPER-SRT-15, INSPIRE, STREAM, and INTERSECTION.</p>
                         
                         <!-- Example project structure - add your projects here following this format -->
                         <!--
@@ -277,8 +308,18 @@
                         </div>
                         -->
                         
-                        <h3 class="h5 mt-5 mb-3"><i class="bi-flag-fill text-primary me-2"></i>Italian National Projects</h3>
-                        <p class="text-muted mb-4">Our group participates in PRIN (Progetti di Rilevante Interesse Nazionale) and other national research initiatives, contributing to the advancement of cybersecurity and privacy technologies in Italy.</p>
+                        <h3 class="h5 mt-5 mb-3"><i class="bi-flag-fill text-primary me-2"></i><span data-i18n="projects.italian.title">Italian National Projects</span></h3>
+                        <p class="text-muted mb-4" data-i18n="projects.italian.description">FITNESSLAB has participated in <strong>8 Italian national research projects</strong>, including PRIN (Progetti di Rilevante Interesse Nazionale) and other national research initiatives, contributing to the advancement of cybersecurity and privacy technologies in Italy. Our Italian projects include:</p>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2"><i class="bi-check-circle text-primary me-2"></i><strong>AUDACE</strong></li>
+                            <li class="mb-2"><i class="bi-check-circle text-primary me-2"></i><strong>COBELLIS</strong></li>
+                            <li class="mb-2"><i class="bi-check-circle text-primary me-2"></i><strong>ISTINTO</strong></li>
+                            <li class="mb-2"><i class="bi-check-circle text-primary me-2"></i><strong>MIRABILE</strong></li>
+                            <li class="mb-2"><i class="bi-check-circle text-primary me-2"></i><strong>IDA</strong></li>
+                            <li class="mb-2"><i class="bi-check-circle text-primary me-2"></i><strong>EMDAS</strong></li>
+                            <li class="mb-2"><i class="bi-check-circle text-primary me-2"></i><strong>S2</strong></li>
+                            <li class="mb-2"><i class="bi-check-circle text-primary me-2"></i><strong>DOSSIER</strong></li>
+                        </ul>
                         
                         <!-- Example project structure - add your projects here following this format -->
                         <!--
@@ -294,7 +335,7 @@
                         
                         <div class="alert alert-info mt-4" role="alert">
                             <i class="bi-info-circle me-2"></i>
-                            <strong>Note:</strong> Detailed project information from our research activities can be found in the project documentation. For specific project details, please contact us.
+                            <span data-i18n="projects.note"><strong>Note:</strong> Detailed project information from our research activities can be found in the project documentation. For specific project details, please contact us.</span>
                         </div>
                     </div>
                 </div>
@@ -303,7 +344,7 @@
         <!-- Spin-off-->
         <section class="page-section" id="spin-off">
             <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">Spin-off Company</h2>
+                <h2 class="text-center mt-0" data-i18n="spin-off.title">Spin-off Company</h2>
                 <hr class="divider" />
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-10">
@@ -319,11 +360,11 @@
                                         <h3 class="card-title">
                                             <a href="https://www.trustup.it/" target="_blank" rel="noopener noreferrer" class="text-decoration-none">Trust Up</a>
                                         </h3>
-                                        <p class="card-text">FITNESSLAB has successfully created a spin-off company, <strong><a href="https://www.trustup.it/" target="_blank" rel="noopener noreferrer" class="text-decoration-none">Trust Up</a></strong>, which commercializes the research results and innovative technologies developed by our research group. Trust Up focuses on bringing cutting-edge cybersecurity and privacy-preserving solutions to the market, transforming academic research into practical applications for industry and organizations.</p>
-                                        <p class="card-text">Trust Up is an academic spinoff of the University of Naples Parthenope that commercializes research and know-how in the field of secure data processing, specializing in confidential computing based on Trusted Execution Environment (TEE) technologies.</p>
+                                        <p class="card-text" data-i18n="spin-off.description">FITNESSLAB has successfully created a spin-off company, <strong><a href="https://www.trustup.it/" target="_blank" rel="noopener noreferrer" class="text-decoration-none">Trust Up</a></strong>, which commercializes the research results and innovative technologies developed by our research group. Trust Up focuses on bringing cutting-edge cybersecurity and privacy-preserving solutions to the market, transforming academic research into practical applications for industry and organizations.</p>
+                                        <p class="card-text" data-i18n="spin-off.details">Trust Up is an academic spinoff of the University of Naples Parthenope that commercializes research and know-how in the field of secure data processing, specializing in confidential computing based on Trusted Execution Environment (TEE) technologies.</p>
                                         <p class="card-text mb-0">
                                             <a href="https://www.trustup.it/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
-                                                Visit Trust Up Website <i class="bi-box-arrow-up-right ms-1"></i>
+                                                <span data-i18n="spin-off.button">Visit Trust Up Website</span> <i class="bi-box-arrow-up-right ms-1"></i>
                                             </a>
                                         </p>
                                     </div>
@@ -339,9 +380,9 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0">Contact Us</h2>
+                        <h2 class="mt-0" data-i18n="contact.title">Contact Us</h2>
                         <hr class="divider" />
-                        <p class="text-muted mb-5">Interested in our research or collaboration opportunities? Get in touch with us!</p>
+                        <p class="text-muted mb-5" data-i18n="contact.description">Interested in our research or collaboration opportunities? Get in touch with us!</p>
                     </div>
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -357,12 +398,12 @@
                     </div>
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
                         <i class="bi-envelope fs-2 mb-3 text-primary"></i>
-                        <div class="text-muted">For inquiries, please contact:</div>
+                        <div class="text-muted" data-i18n="contact.inquiries">For inquiries, please contact:</div>
                         <a href="mailto:fitnesslab@uniparthenope.it" class="text-decoration-none">fitnesslab@uniparthenope.it</a>
                     </div>
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
                         <i class="bi-globe fs-2 mb-3 text-primary"></i>
-                        <div class="text-muted">Visit our institution:</div>
+                        <div class="text-muted" data-i18n="contact.visit">Visit our institution:</div>
                         <a href="https://www.uniparthenope.it" class="text-decoration-none" target="_blank">www.uniparthenope.it</a>
                     </div>
                 </div>
@@ -378,6 +419,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- SimpleLightbox plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- i18n JS-->
+        <script src="js/i18n.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
