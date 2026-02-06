@@ -11,13 +11,13 @@ const translations = {
         'nav.language': 'Language',
         
         // Hero section
-        'hero.subtitle': 'Research Group on Cybersecurity, Privacy-Preserving Computing, and Blockchain Technologies<br>University of Naples Parthenope',
-        'hero.interdisciplinary': 'An interdisciplinary laboratory between the <a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Engineering (DING)</a> and the <a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Economics, Law, Cybersecurity, and Sports Science</a>',
+        'hero.subtitle': 'University of Naples Parthenope',
+        'hero.interdisciplinary': 'An interdisciplinary laboratory between the <a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Engineering</a> and the <a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Economics, Law, Cybersecurity, and Sports Science</a>',
         'hero.button': 'Discover Our Research',
         
         // Research Topics
         'research.topics.title': 'Research Topics',
-        'research.topics.description': 'FITNESSLAB is an interdisciplinary laboratory between the <strong><a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Engineering (DING)</a></strong> and the <strong><a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Economics, Law, Cybersecurity, and Sports Science</a></strong> at the University of Naples Parthenope. We conduct cutting-edge research in cybersecurity, privacy-preserving computing, and blockchain technologies, with applications spanning computing continuum, eHealth, and industrial control systems.',
+        'research.topics.description': 'FITNESSLAB is an interdisciplinary laboratory between the <strong><a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Engineering (DING)</a></strong> and the <strong><a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Department of Economics, Law, Cybersecurity, and Sports Science</a></strong> at the University of Naples Parthenope. We conduct cutting-edge research in cybersecurity and system resilience, privacy-preserving computing, cloud, edge and fog computing security, blockchain and distributed ledger technologies, secure and trusted IoT systems, and the protection of eHealth platforms, industrial control systems, and critical infrastructures, with a strong focus on adaptive, resilient, and trustworthy distributed systems.',
         'research.areas.title': 'Our Research Areas',
         'research.area.privacy.title': 'Privacy-Preserving Computing',
         'research.area.privacy.desc': 'Research on Trusted Execution Environments (TEE), Homomorphic Encryption (HE), and Federated Learning for secure and private data processing.',
@@ -90,8 +90,8 @@ const translations = {
         'nav.language': 'Lingua',
         
         // Hero section
-        'hero.subtitle': 'Gruppo di Ricerca su Cybersecurity, Computazione Privacy-Preserving e Tecnologie Blockchain<br>Università degli Studi di Napoli Parthenope',
-        'hero.interdisciplinary': 'Un laboratorio interdisciplinare tra il <a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Dipartimento di Ingegneria (DING)</a> e il <a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Dipartimento di Scienze Economiche, Giuridiche, Informatiche e Motorie (DiSEGIM)</a>',
+        'hero.subtitle': 'Università degli Studi di Napoli Parthenope',
+        'hero.interdisciplinary': 'Un laboratorio interdisciplinare tra il <a href="https://www.ingegneria.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Dipartimento di Ingegneria</a> e il <a href="https://disegim.uniparthenope.it/" target="_blank" class="text-white text-decoration-underline">Dipartimento di Scienze Economiche, Giuridiche, Informatiche e Motorie (DiSEGIM)</a>',
         'hero.button': 'Scopri la Nostra Ricerca',
         
         // Research Topics
